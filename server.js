@@ -22,8 +22,8 @@ app.use(express.static("public"));
 
 //Calls the routes
 //==========================
+apiRoutes(app);
 htmlRoutes(app);
-apiRoutes(app)
  
 //Starts the server to begin listening 
 //==============================
