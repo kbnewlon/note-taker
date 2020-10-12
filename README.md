@@ -1,5 +1,4 @@
-# Note-Taker
-This application can be used to write, save, and delete notes. Note-taker uses an express backend as well as it saves and retrieves note data from a JSON file.
+
 
 
 
@@ -56,29 +55,52 @@ You are required to submit the following:
 * The URL of the GitHub repository
 
 
+# Note-Taker
 
-// //ROUTES
-// //====================================
 
-// //Basis route that sends the user first to the AJAX Page
-// app.get("*", function(req, res) {
-//   res.sendFile(path.join(__dirname, "index.html"));
-// });
+![issues](https://img.shields.io/github/issues/kbnewlon/note-taker)
+![GitHub top language](https://img.shields.io/github/languages/top/kbnewlon/note-taker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+## Description 
+This application can be used to write, save, and delete notes. Note-taker uses an express backend as well as it saves and retrieves note data from a JSON file. 
 
-// app.get("/notes", function(req, res) {
-//   res.sendFile(path.join(__dirname, "notes.html"));
-// });
+## Table of Contents 
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Visuals](#Visuals)
+* [Links](#Links)
+* [Questions](#Questions)
 
-// // Displays all notes
-// app.get("/api/notes", function(req, res) {
-//   return res.json(notes);
-// });
+## Installation
+Run npm install in your command terminal
 
-// // Displays a single character, or returns false
-// app.get("/api/notes/:id", function(req, res) {
-//   var chosen = req.params.name;
+## Usage
+Run nodemon server.js to begin the program
 
-//   console.log(chosen);
+## License
+Copyright (c) 2020, Kayla Newlon. (MIT License)
+
+## Contributing 
+No guidelines at this time 
+
+## Tests
+No tests available 
+
+## Visuals
+![screenshot of generated readme](assets/generated-README-screenshot.PNG)
+## Links
+To Repo: https://github.com/kbnewlon/note-taker
+<br>To Demo: https://drive.google.com/file/d/1z-2bDsW6ol7bhT4O-6MephNegUoI07Je/view  
+
+## Questions 
+Please contact me if you have any questions at:
+<br>Email: kbnewlon@hotmail.com
+<br>Github: https://github.com/kbnewlon
+
 
 
 
